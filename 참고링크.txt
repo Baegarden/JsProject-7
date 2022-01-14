@@ -1,2 +1,3 @@
 [React 오류] Cannot read property 'map' of undefined - https://devbirdfeet.tistory.com/47
 [React 오류] React Hook useEffect has a missing dependency - https://kyounghwan01.github.io/blog/React/exhaustive-deps-warning/
+RecoilRoot, atom, selector 란 무엇인가? (react) - https://basemenks.tistory.com/200?category=1027041
