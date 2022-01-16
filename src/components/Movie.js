@@ -7,7 +7,7 @@ function Movie({ id, coverImg, title, year, genres, rating }) {
   return (
     <div className={styles.movie}>
       <img src={coverImg} alt={title} className={styles.movie_img}></img>
-      <div clasName={styles.movie_info}>
+      <div className={styles.movie_info}>
         <div>
           <h2>
             <Link to={`/movie/${id}`}>{title}</Link>
@@ -24,6 +24,7 @@ Movie.propTypes = {
   id: PropTypes.number.isRequired,
   coverImg: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
   rating: PropTypes.number.isRequired,
 };
