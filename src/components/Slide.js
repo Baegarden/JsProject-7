@@ -33,7 +33,7 @@ function Slide({ ytsApi }) {
       {loading ? (
         <h2>Loading...</h2>
       ) : (
-        <div className={styles.slide__show}>
+        <div className={styles.slide_show}>
           <div
             className={styles.slide}
             style={{

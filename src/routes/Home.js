@@ -7,7 +7,7 @@ function Home() {
   const navList = [
     {
       title: 'High Rating',
-      path: 'minimum_rating=7',
+      path: 'minimum_rating=8',
     },
     {
       title: 'Romance',

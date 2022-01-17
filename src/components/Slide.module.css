@@ -1,12 +1,14 @@
 .container {
   position: relative;
 }
-.slide__show {
+
+.slide_show {
   width: 1200px;
   overflow: hidden;
   position: relative;
   left: calc(50% - 600px);
 }
+
 .slide {
   width: 3500px;
   padding: 50px 0 0 0;
@@ -20,29 +22,28 @@
   background-color: transparent;
   border: none;
   outline: none;
-  color: #00d2fc;
+  color: #1d3124;
   opacity: 0.8;
   font-size: 44px;
   transition: all 0.4s;
 }
 
-.left:hover,
-.right:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
 .left {
-  text-shadow: 3px 2px 0 #009efa;
-
+  text-shadow: 3px 2px 0 #1d3124;
   position: absolute;
   top: calc(50% - 22px);
   left: 80px;
 }
 
 .right {
-  text-shadow: -3px 2px 0 #009efa;
+  text-shadow: -3px 2px 0 #1d3124;
   position: absolute;
   top: calc(50% - 22px);
   right: 80px;
+}
+
+.left:hover,
+.right:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
