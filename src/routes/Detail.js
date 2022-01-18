@@ -1,5 +1,7 @@
+import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 import { useCallback, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Loading from '../components/Loading';
 import MovieDetail from '../components/MovieDetail';
 
 function Detail() {
@@ -22,7 +24,7 @@ function Detail() {
   return (
     <div>
       {loading ? (
-        <h2>Loading...</h2>
+        <Loading></Loading>
       ) : (
         <MovieDetail
           background_image_original={movie.background_image_original}
@@ -32,6 +34,7 @@ function Detail() {
           runtime={movie.runtime}
           genres={movie.genres}
           download_count={movie.download_count}
+          description_intro={movie.description_intro}
         />
       )}
     </div>

@@ -1,4 +1,5 @@
 import styles from './MovieDetail.module.css';
+import { Link } from 'react-router-dom';
 
 function MovieDetail({
   background_image_original,
@@ -8,6 +9,7 @@ function MovieDetail({
   runtime,
   genres,
   download_count,
+  description_intro,
 }) {
   return (
     <div>
@@ -16,18 +18,17 @@ function MovieDetail({
         <img className={styles.img} src={medium_cover_image} />
         <div className={styles.textbox}>
           <h1 className={styles.title}>{title_long}</h1>
-          <ul>
-            <li>Rating {rating}</li>
-            <li>Runtime {runtime}</li>
-            <li>Download {download_count}</li>
-            <li>
-              Genres
-              <ul>
-                {genres &&
-                  genres.map((genre, index) => <li key={index}>{genre}</li>)}
-              </ul>
-            </li>
-          </ul>
+          <div>
+            {`★${rating} (${download_count}) ・ ${runtime}min ・ ${
+              genres && genres.join(' / ')
+            }`}
+          </div>
+          <p>{description_intro}</p>
+          <Link to={`/`}>
+            <button className={styles.toHome}>
+              <i className="fas fa-caret-square-left"></i>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

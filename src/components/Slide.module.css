@@ -1,5 +1,7 @@
 .container {
   position: relative;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .slide_show {
@@ -32,14 +34,14 @@
   text-shadow: 3px 2px 0 #1d3124;
   position: absolute;
   top: calc(50% - 22px);
-  left: 80px;
+  left: 100px;
 }
 
 .right {
   text-shadow: -3px 2px 0 #1d3124;
   position: absolute;
   top: calc(50% - 22px);
-  right: 80px;
+  right: 100px;
 }
 
 .left:hover,

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import styles from './Slide.module.css';
 import Movie from './Movie';
+import Loading from './Loading';
 
 function Slide({ ytsApi }) {
   const [loading, setLoading] = useState(true);
@@ -31,7 +32,9 @@ function Slide({ ytsApi }) {
   return (
     <div className={styles.container}>
       {loading ? (
-        <h2>Loading...</h2>
+        <div style={{ height: '350px' }}>
+          <Loading></Loading>
+        </div>
       ) : (
         <div className={styles.slide_show}>
           <div

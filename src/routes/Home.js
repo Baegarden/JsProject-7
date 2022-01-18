@@ -25,9 +25,9 @@ function Home() {
 
   return (
     <div className={styles.container}>
-      {navList.map(slide => {
+      {navList.map((slide, index) => {
         return (
-          <div className={styles.slide_box}>
+          <div className={styles.slide_box} key={index}>
             <h3 className={styles.title}>
               <span>{slide.title} Movie</span>
             </h3>

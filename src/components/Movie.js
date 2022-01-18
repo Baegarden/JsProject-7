@@ -9,12 +9,16 @@ function Movie({ id, coverImg, title, year, genres, rating }) {
       <img src={coverImg} alt={title} className={styles.movie_img}></img>
       <div className={styles.movie_info}>
         <div>
-          <h2>
-            <Link to={`/movie/${id}`}>{title}</Link>
+          <h2 className={styles.movie_title}>
+            <Link to={`/movie/${id}`}>
+              {title.length > 50 ? `${title.slice(0, 50)}...` : title}
+            </Link>
           </h2>
         </div>
-        <div>{`${year} ・ ${genres.join(' / ')}`}</div>
-        <div>★ {rating}</div>
+        <div>{`${year} ★${rating}`}</div>
+        <div className={styles.movie_genres}>
+          {genres.length > 1 ? `${genres[0]} / ${genres[1]}` : genres[0]}
+        </div>
       </div>
     </div>
   );
