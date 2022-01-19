@@ -3,7 +3,7 @@ import styles from './Slide.module.css';
 import Movie from './Movie';
 import Loading from './Loading';
 
-function Slide({ ytsApi }) {
+function Slide({ api }) {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
   const [trans, setTrans] = useState(0);
@@ -21,7 +21,7 @@ function Slide({ ytsApi }) {
     setTrans(current => current - 400);
   };
   const getMovies = async () => {
-    const json = await (await fetch(ytsApi)).json();
+    const json = await (await fetch(api)).json();
     setMovies(json.data.movies);
     setLoading(false);
   };

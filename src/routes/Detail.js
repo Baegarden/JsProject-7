@@ -1,4 +1,3 @@
-import { calculateNewValue } from '@testing-library/user-event/dist/utils';
 import { useCallback, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Loading from '../components/Loading';
