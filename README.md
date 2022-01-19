@@ -1,3 +1,19 @@
+# JsProject-7
+🎬 <strong>ReactJS로 영화 웹 서비스 만들기 (New)</strong><br><br><br>
+
+
+> ### 기능 
+* Slide 기능 구현
+* Router 사용으로 페이지 전환
+<br><br><br>
+
+> ### 사진 
+![1](https://user-images.githubusercontent.com/76520025/109313545-af31dd00-788b-11eb-9b10-ac0cb9858ac7.JPG)
+<br><br><br>
+
+> ### Try-it! 
+https://baegarden.github.io/JsProject-7/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
