@@ -3,12 +3,14 @@
 
 
 > ### 기능 
-* Slide 기능 구현
-* Router 사용으로 페이지 전환
+* Slide 구현
+* Router를 사용한 페이지 전환
 <br><br><br>
 
 > ### 사진 
-![1](https://user-images.githubusercontent.com/76520025/109313545-af31dd00-788b-11eb-9b10-ac0cb9858ac7.JPG)
+![Home](https://user-images.githubusercontent.com/76520025/150144657-fa3b5102-213c-4b01-a1f3-5351c3e01faa.PNG)
+<br><br><br>
+![Detail](https://user-images.githubusercontent.com/76520025/150144649-2c44d777-25ce-4607-a68b-1388e0f2074b.PNG)
 <br><br><br>
 
 > ### Try-it! 
