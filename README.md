@@ -1,6 +1,9 @@
 # JsProject-7
 🎬 <strong>ReactJS로 영화 웹 서비스 만들기 (New)</strong><br><br><br>
 
+> ### 개발환경 
+HTML, CSS, JavaScript, React
+<br><br><br>
 
 > ### 기능
 * 영화의 제목, 제작연도, 장르, 줄거리, 포스터 정보제공
