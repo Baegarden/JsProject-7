@@ -1,3 +1,28 @@
+# JsProject-7
+🎬 <strong>ReactJS로 영화 웹 서비스 만들기 (New)</strong><br><br><br>
+
+> ### 개발환경 
+HTML, CSS, JavaScript, React
+<br><br><br>
+
+> ### 기능
+* 영화의 제목, 제작연도, 장르, 줄거리, 포스터 정보제공
+* Slide 구현
+* Router를 사용한 페이지 전환
+<br><br><br>
+
+> ### 사진 
+![Home](https://user-images.githubusercontent.com/76520025/150144657-fa3b5102-213c-4b01-a1f3-5351c3e01faa.PNG)
+<br><br><br>
+![Detail](https://user-images.githubusercontent.com/76520025/150144649-2c44d777-25ce-4607-a68b-1388e0f2074b.PNG)
+<br><br><br>
+
+> ### Try-it! 
+https://baegarden.github.io/JsProject-7/
+<br><br><br>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
